@@ -16,8 +16,7 @@
   font-family: "Open Sans";
   font-display: fallback;
   font-style: normal;
-  src: 
-    url("fonts/opensans-regular-webfont.woff2") format("woff2"),
+  src: url("fonts/opensans-regular-webfont.woff2") format("woff2"),
     url("fonts/opensans-regular-webfont.woff") format("woff");
 }
 
@@ -26,8 +25,7 @@
   font-display: fallback;
   font-style: normal;
   font-weight: bold;
-  src: 
-    url("fonts/opensans-bold-webfont.woff2") format("woff2"),
+  src: url("fonts/opensans-bold-webfont.woff2") format("woff2"),
     url("fonts/opensans-bold-webfont.woff") format("woff");
 }
 
@@ -36,9 +34,16 @@
   font-display: fallback;
   font-style: normal;
   font-weight: black;
-  src: 
-    url("fonts/PlayfairDisplay-Black.woff2") format("woff2"),
+  src: url("fonts/PlayfairDisplay-Black.woff2") format("woff2"),
     url("fonts/PlayfairDisplay-Black.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Bodoni MT";
+  font-display: fallback;
+  font-style: normal;
+  src: url("fonts/BODR.woff2") format("woff2"),
+    url("fonts/BODR.woff") format("woff");
 }
 
 //! set font variables
