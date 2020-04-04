@@ -1,0 +1,32 @@
+header {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  height: 12.33rem;
+}
+
+.header__logo {
+  margin-left: 12.15%;
+  height: 3.7rem;
+}
+
+.nav {
+  margin-left: 5.3%;
+  letter-spacing: 0.7px;
+  .nav-list {
+
+    list-style: none;
+    display: flex;
+    align-items: center;
+    font-family: "Open Sans";
+    font-weight: bold;
+    color: $white;
+    &__item {
+      cursor: pointer;
+      margin-left: 6%;
+      &:not(:first-child) {
+        margin-left: 7.4%;
+      }
+    }
+  }
+}
